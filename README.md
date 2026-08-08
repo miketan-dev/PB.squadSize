@@ -4,14 +4,14 @@
 ![Game Version](https://img.shields.io/badge/Phantom%20Brigade-%3E%3D%20v2.0-green)
 ![Language](https://img.shields.io/badge/Language-YAML-informational)
 
-| Metadata                 | Details                                                |
-|:-------------------------|:-------------------------------------------------------|
-| **Update Date**          | TBD                                                    |
-| **Mod Version**          | `v2.0.2`                                               |
-| **Repository**           | [PB.pcm](https://github.com/miketan-dev/PB.squadSize6) |
-| **Programming Language** | YAML                                                   |
-| **Minimum Game Version** | v2.0+                                                  |
-| **License**              | BSD-3 Clause License                                   |
+| Metadata                 | Details                                                      |
+|:-------------------------|:-------------------------------------------------------------|
+| **Update Date**          | TBD                                                          |
+| **Mod Version**          | `v2.0.2`                                                     |
+| **Repository**           | [PB.squadSize](https://github.com/miketan-dev/PB.squadSize6) |
+| **Programming Language** | YAML                                                         |
+| **Minimum Game Version** | v2.0+                                                        |
+| **License**              | BSD-3 Clause License                                         |
 ---
 
 ## CREDITS
