@@ -24,8 +24,10 @@
 
 ## MOD STATUS & DL LINK(S)
 
-- [Steam Workshop](#)
-- [Nexus Mod](#)
+- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3618986473) - [6 Mechs ver.]
+- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3618986072) - [5 Mechs ver.]
+
+- [Nexus Mod](https://www.nexusmods.com/phantombrigade/mods/69) - [Both versions]
 
 ---
 
