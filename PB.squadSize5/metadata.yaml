@@ -1,0 +1,33 @@
+priority: 0
+colorHue: 0.5
+id: PB.squadSize5
+ver: 2.0.2
+url: https://github.com/miketan-dev/PB.squadSize6
+includesConfigOverrides: false
+includesConfigEdits: true
+includesConfigTrees: false
+includesLibraries: false
+includesTextures: false
+includesLocalizationEdits: false
+includesLocalizations: false
+includesAssetBundles: false
+gameVersion2Compatible: false
+gameVersionMin: 2.0
+gameVersionMax: 
+name: Squad Size - 5 mechs version
+desc: >2-
+    This mod enables the total squad size count to 5 mechs instead of 4.
+
+    ==========[MOD INFO & DISCLAIMER]==========
+
+    Squad Size mod doesn't work with specific scenario to avoid unfair balance at beginning, specifically. These are:
+
+    - Mountain base;
+    - Early-Game & Tutorial Scenarios (Obstager-Wiel and Hedmark Missions are unaffected by this mod);
+    - Specific missions designed to field only 2 or 3 mechs in a sortie)
+
+    =======[FEEDBACK & SUGGESTIONS]=======
+
+    I am available and active on BYG Discord as Mod Author and I would love to receive your feedbacks & suggestions! However, I only receive feedback/suggestions on Steam workshop and Nexus Mod page related to this mod as it is more handy to handle issues in these places.
+
+  For this reason, Suggestions and Feedbacks received throught BYG Channel, direct pinging and DMs WILL NOT be considered.

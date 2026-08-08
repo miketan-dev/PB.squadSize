@@ -1,0 +1,5 @@
+removed: false
+edits:
+- 'activeSquadLimit: 5'
+- 'pilotExperienceFromSquad.4: 0.5 !+'
+- 'pilotExperienceFromSquad.5: 0.25 !+'

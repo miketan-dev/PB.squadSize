@@ -1,4 +1,4 @@
-# Squd Size Mod - 6 Mechs ver.
+# Squd Size Mod
 
 ![Mod Version](https://img.shields.io/badge/Mod%20Version-v2.0.2-blue)
 ![Game Version](https://img.shields.io/badge/Phantom%20Brigade-%3E%3D%20v2.0-green)
@@ -12,7 +12,6 @@
 | **Programming Language** | YAML                                                   |
 | **Minimum Game Version** | v2.0+                                                  |
 | **License**              | BSD-3 Clause License                                   |
-
 ---
 
 ## CREDITS
@@ -59,15 +58,17 @@ This mod modifies the game's simulation settings and combat scenarios to enable 
 
 ## Mechanics
 
-### Squad Size Limit
-- **Default**: 4 mechs per squad
-- **Modded**: 6 mechs per squad
-
 The mod changes the `activeSquadLimit` parameter in the simulation settings from 4 to 6, allowing you to deploy up to 6 mechs in a single squad.
 
 ### Pilot Experience Scaling
 To maintain game balance with larger squads, the mod implements a pilot experience scaling system for the additional mech slots:
 
+*squadSize5 version*:
+- **Slot 1-3**: Standard experience gain (100%)
+- **Slot 4**: 50% experience gain
+- **Slot 5**: 25% experience gain
+
+*squadSize6 version*:
 - **Slot 1-3**: Standard experience gain (100%)
 - **Slot 4**: 50% experience gain
 - **Slot 5**: 25% experience gain
@@ -94,9 +95,3 @@ To maintain fair game balance, this mod does not affect specific scenarios where
 - **Specialized Missions** - Scenarios specifically designed to field only 2 or 3 mechs in a sortie remain unchanged
 
 These exclusions ensure that the mod enhances the mid-to-late game experience without disrupting the carefully balanced early-game progression.
-
-## Installation
-
-This mod uses the standard BYG mod format with config edits. Simply place the mod folder in your game's mods directory and enable it through the mod manager.
-
-**Note**: For organizational purposes, feedback and suggestions received through BYG Discord channels, direct pings, or DMs will not be considered. Please use the official mod pages for any issues or suggestions.

@@ -2,7 +2,7 @@ priority: 0
 colorHue: 0.5
 id: PB.squadSize6
 ver: 2.0.2
-url: 
+url: https://github.com/miketan-dev/PB.squadSize
 includesConfigOverrides: false
 includesConfigEdits: true
 includesConfigTrees: false
