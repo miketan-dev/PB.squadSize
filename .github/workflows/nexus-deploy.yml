@@ -3,7 +3,7 @@
 on:
   push:
     branches:
-      - feature/nexusmod-upload # Oppure 'master', a seconda del nome del tuo ramo principale
+      - feature/nexusmod-upload
       - master
 
 jobs:
@@ -12,18 +12,18 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
-      - name: Creates mod zip archive
-        run: zip -r Squad Size Mod 2.0.zip . -x "*.git*" ".github/*"
 
-      # Uploads the mod to Nexus Mods
+      - name: Creates mod zip archive
+        # Racchiuso tra virgolette per gestire gli spazi nel nome
+        run: zip -r "Squad_Size_Mod_2.0.zip" . -x "*.git*" ".github/*"
+
       - name: Upload to Nexus Mods
         uses: Nexus-Mods/upload-action@v1.0.0-beta.11
         with:
           api_key: ${{ secrets.NEXUSMODS_API_KEY }}
           mod_id: 69
           file_id: 352
-          filename: Squad Size Mod 2.0.zip
-          version: ${{ github.event.release.tag_name }}
-          display_name: "Aggiornamento ${{ github.event.release.tag_name }}"
-          category: update                     # Opzioni: main, optional, update, ecc.
+          filename: "Squad_Size_Mod_2.0.zip"
+          version: "2.0.0"                      # Versione statica (poiché non stai usando le Releases di GitHub)
+          display_name: "Squad Size Mod v2.0"
+          category: update
