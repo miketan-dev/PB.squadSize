@@ -22,7 +22,7 @@ jobs:
         with:
           api_key: ${{ secrets.NEXUSMODS_API_KEY }}
           mod_id: 69
-          file_id: 352
+          file_id: 434554
           filename: "Squad_Size_Mod_2.0.zip"
           version: "2.0.3"
           display_name: "Squad Size Mod v2.0"
