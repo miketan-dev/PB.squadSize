@@ -15,7 +15,7 @@ jobs:
         run: zip -r Squad Size Mod 2.0.zip . -x "*.git*" ".github/*"
 
       # Uploads the mod to Nexus Mods
-      - name: Upload su Nexus Mods
+      - name: Upload to Nexus Mods
         uses: Nexus-Mods/upload-action@v1.0.0-beta.11
         with:
           api_key: ${{ secrets.NEXUSMODS_API_KEY }}
