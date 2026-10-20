@@ -27,4 +27,4 @@ jobs:
           filename: "Squad_Size_Mod_2.0.zip"
           version: "2.0.3"
           display_name: "Squad Size Mod v2.0"
-          category: update
+          category: main
