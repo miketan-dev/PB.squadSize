@@ -1,8 +1,10 @@
 ﻿name: Deploy to Nexus Mods
 
 on:
-  release:
-    types: [ published ]
+  push:
+    branches:
+      - feature/nexusmod-upload # Oppure 'master', a seconda del nome del tuo ramo principale
+      - master
 
 jobs:
   upload:
