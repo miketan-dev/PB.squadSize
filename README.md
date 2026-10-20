@@ -7,7 +7,7 @@
 | Metadata                 | Details                                                      |
 |:-------------------------|:-------------------------------------------------------------|
 | **Update Date**          | TBD                                                          |
-| **Mod Version**          | `v2.0.2`                                                     |
+| **Mod Version**          | `v2.0.4`                                                     |
 | **Repository**           | [PB.squadSize](https://github.com/miketan-dev/PB.squadSize6) |
 | **Programming Language** | YAML                                                         |
 | **Minimum Game Version** | v2.0+                                                        |

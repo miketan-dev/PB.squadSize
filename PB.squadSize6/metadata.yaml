@@ -1,7 +1,7 @@
 priority: 0
 colorHue: 0.5
 id: PB.squadSize6
-ver: 2.0.2
+ver: 2.0.4
 url: https://github.com/miketan-dev/PB.squadSize
 includesConfigOverrides: false
 includesConfigEdits: true
@@ -11,7 +11,7 @@ includesTextures: false
 includesLocalizationEdits: false
 includesLocalizations: false
 includesAssetBundles: false
-gameVersion2Compatible: false
+gameVersion2Compatible: true
 gameVersionMin: 2.0
 gameVersionMax: 
 name: Squad Size - 6 mechs version

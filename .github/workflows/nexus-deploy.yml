@@ -1,22 +1,19 @@
-﻿name: Deploy to Nexus Mods
-
+﻿name: (Nexus Mods) - Deploy
 on:
   push:
     branches:
-      - feature/nexusmod-upload
-      - master
-
+      - master #Only triggers when pushing to master branch.
 jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: (Nexus Mods) - Checkout code
         uses: actions/checkout@v4
 
-      - name: Creates mod zip archive
+      - name: (Nexus Mods) - Zip file creation
         run: zip -r "Squad_Size_Mod_2.0.zip" PB.squadSize5 PB.squadSize6 #Updates only the folders of the mods; does not include project files.
 
-      - name: Upload to Nexus Mods
+      - name: (Nexus Mods) - File Upload
         uses: Nexus-Mods/upload-action@v1.0.0-beta.11
         with:
           api_key: ${{ secrets.NEXUSMODS_API_KEY }}
