@@ -24,6 +24,6 @@ jobs:
           mod_id: 69
           file_id: 352
           filename: "Squad_Size_Mod_2.0.zip"
-          version: "2.0.0"                      # Versione statica (poiché non stai usando le Releases di GitHub)
+          version: "2.0.3"
           display_name: "Squad Size Mod v2.0"
           category: update
