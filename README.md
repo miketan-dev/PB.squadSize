@@ -1,6 +1,6 @@
 # Squd Size Mod
 
-![Mod Version](https://img.shields.io/badge/Mod%20Version-v2.0.2-blue)
+![Mod Version](https://img.shields.io/badge/Mod%20Version-v2.0.4-blue)
 ![Game Version](https://img.shields.io/badge/Phantom%20Brigade-%3E%3D%20v2.0-green)
 ![Language](https://img.shields.io/badge/Language-YAML-informational)
 
