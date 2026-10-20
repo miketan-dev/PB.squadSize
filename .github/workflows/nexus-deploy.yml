@@ -1,0 +1,27 @@
+﻿name: Deploy to Nexus Mods
+
+on:
+  release:
+    types: [ published ]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Creates mod zip archive
+        run: zip -r Squad Size Mod 2.0.zip . -x "*.git*" ".github/*"
+
+      # Uploads the mod to Nexus Mods
+      - name: Upload su Nexus Mods
+        uses: Nexus-Mods/upload-action@v1.0.0-beta.11
+        with:
+          api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+          mod_id: 69
+          file_id: 352
+          filename: Squad Size Mod 2.0.zip
+          version: ${{ github.event.release.tag_name }}
+          display_name: "Aggiornamento ${{ github.event.release.tag_name }}"
+          category: update                     # Opzioni: main, optional, update, ecc.
